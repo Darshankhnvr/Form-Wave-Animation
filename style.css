@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:  "Edu AU VIC WA NT Hand", cursive;
+    color: white;
+     
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgb(165, 165, 227);
+}
+.container{
+    /* height: 400px;
+    width: 300px; */
+    background-color: rgb(130, 137, 239);
+    padding: 15px 30px;
+    margin: 5px;  
+    border-radius: 5px;
+}
+.container h1{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 30px;
+
+}
+.container a{
+    text-decoration: none;
+    color: lightblue;
+}
+.form-control{
+    position: relative;
+    margin: 20px 0 40px;
+    width: 300px;
+}
+.form-control input{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid rgb(234, 210, 210);
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 18px;
+    color: white;
+}
+.btn {
+    background-color: rgb(137, 198, 233);
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 18px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    /* transition: background-color 0.3s ease; */
+}
+.btn:focus{
+    outline: 0;
+}
+.btn:active{
+    transform: scale(0.98);
+}
+.text{
+    margin-top: 30px;
+    
+}
